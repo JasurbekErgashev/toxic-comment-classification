@@ -19,7 +19,7 @@ class DistilBERT_Model(nn.Module):
         return logits
 
 
-def greet(text):
+def calculate(text):
     output = evaluate(text)
     if output == "0":
         return "Toxic ☢️"
@@ -27,5 +27,11 @@ def greet(text):
         return "Non-toxic 🤘"
 
 
-demo = gr.Interface(fn=greet, inputs="text", outputs="text")
+demo = gr.Interface(
+    fn=calculate,
+    inputs=[gr.Textbox(label="comment")],
+    outputs=[gr.Textbox(label="output")],
+    title="CAU | Toxic Challenge | 2024",
+    article="* DistilBERT",
+)
 demo.launch()
