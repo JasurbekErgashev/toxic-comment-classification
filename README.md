@@ -1,3 +1,5 @@
+# PI - Assignment 12
+
 ---
 title: Toxic Comment
 emoji: 🐨
@@ -10,4 +12,9 @@ pinned: false
 license: mit
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Check out the space at [https://huggingface.co/spaces/jasurbek-fm/toxic-comment](https://huggingface.co/spaces/jasurbek-fm/toxic-comment)
+
+## Group Members
+- Ergashev Jasurbek
+- Mukhtor Eshimov
+- Munira Rakhmatova
